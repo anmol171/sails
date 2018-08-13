@@ -32,9 +32,13 @@ module.exports.routes = {
   },
   '/second': {
     view: 'pages/test3'
-  },  '/third': {
+  },  
+  '/third': {
     view: 'pages/test4'
   },
+
+
+  'post /testregister':'UserController.adduser',
 
   /***************************************************************************
   *                                                                          *

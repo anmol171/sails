@@ -73,7 +73,7 @@ span.psw {
 
     <h2 style="color: wheat;text-align: center;">Registration Form</h2>
 
-    <form>
+    <form action="/testregister" method="post">
         <div layout-gt-sm="row" style="width: 50%;margin-top: 3%;margin-left: 25%;">
          <md-input-container class="md-block" flex-gt-sm>
                 <label>First Name</label>
@@ -81,7 +81,7 @@ span.psw {
             </md-input-container>
   
             <md-input-container class="md-block" flex-gt-sm>
-                <label>First Name</label>
+                <label>Last Name</label>
                 <input type="text" placeholder="Enter Last name" name="lname" required>
             </md-input-container>
 
@@ -90,14 +90,18 @@ span.psw {
                 <input type="email" placeholder="Enter Email" name="email" required>
             </md-input-container>
       
-          <button type="submit" style="margin: 9px 0px 3px 0px;">Register</button>
+
+
+            <md-input-container class="md-block" flex-gt-sm>
+                <label>Password</label>
+                <input type="password" placeholder="Enter password" name="password" required>
+            </md-input-container>
+
+
+          <button type="submit" style="margin: 9px 0px 22px 0px;">Register</button>
         
         </div>
-      
-      <div class="container" style="background-color:#f1f1f1;">
-        <button type="button" class="cancelbtn" style="width: 100%">Cancel</button>
-       
-      </div>
+     
     
     </form>
 
