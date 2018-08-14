@@ -11,8 +11,6 @@ module.exports = {
     lname: { type: 'string', required: true, },
     emailAddress: { type: 'string', required: true, },
     password: { type: 'string', required: true, },
-    // karma: { type: 'number', },
-    // isSubscribedToNewsletter: { type: 'boolean', defaultsTo: true, },
   
   
   

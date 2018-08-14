@@ -37,8 +37,16 @@ module.exports.routes = {
     view: 'pages/test4'
   },
 
+  '/fourth': {
+    view: 'pages/test5'
+  },
+
+
 
   'post /testregister':'UserController.adduser',
+  'post /fetchregister':'UserController.fetchuser',
+  // '/returnregister':'UserController.returnuser',
+  
 
   /***************************************************************************
   *                                                                          *
